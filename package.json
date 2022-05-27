@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@mapbox/togeojson": "^0.16.0",
+    "assert": "^2.0.0",
+    "dbf": "0.1.4",
+    "jszip": "2.5.0",
+    "togpx": "^0.5.4",
+    "tokml": "^0.4.0",
+    "topojson": "^3.0.2",
+    "wellknown": "^0.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "babel-loader": "^8.2.5",
+    "buffer": "^6.0.3",
+    "karma": "^6.3.20",
+    "leaflet": "^1.8.0",
+    "node": "latest",
+    "stream-browserify": "^3.0.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "watch": "webpack --config=webpack.dev.js"
+  }
+}
