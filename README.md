@@ -1,4 +1,4 @@
-# Format converter
+# Coordinates converter
 
 ## GeoJSON
 Leaflet default 
