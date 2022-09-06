@@ -46,7 +46,7 @@ L.ConvertCoords.TopoJSON.parse(kml, options);
 Convert & parse: https://github.com/mapbox/wellknown
 
 ```javascript
-L.ConvertCoords.TopoJSON.convert(layer, percision);
-L.ConvertCoords.TopoJSON.parse(kml, options);
+L.ConvertCoords.WKT.convert(layer, percision);
+L.ConvertCoords.WKT.parse(wkt, options);
 ```
 

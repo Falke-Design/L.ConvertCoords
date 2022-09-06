@@ -15,6 +15,9 @@ L.ConvertCoords = {
   WKT, // done
 
   _parseXML(str){
+  	if(str instanceof XMLDocument ){
+  		return str;
+	}
     return (new DOMParser()).parseFromString(str, 'text/xml');
   }
 };
